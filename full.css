@@ -1,0 +1,77 @@
+.body{
+    background-color: white;
+   margin: 0px;
+   margin-left: 1.2rem;
+   line-height: 1.6;
+   padding: 0;
+}
+.h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem 0;
+    border-bottom: 4px solid skyblue;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    
+}
+.h2{
+    color:  rgb(84, 190, 232);
+    font-size: 1.8rem;
+    margin: 2rem 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid gray;
+}
+.p{
+    font-size: 25px;
+    margin-bottom: 1.2rem;
+    line-height: 1.7;
+}
+.all{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.list{
+    font-size: 25px;
+    font-weight: bold;
+    font-size: 1.2 rem;
+}
+.example{
+    background-color: black;
+    color: white;
+    margin-left: 9px;
+    margin-bottom: 9px;
+    margin-right: 9px;
+}
+.full{
+    border-radius: 8px;
+    box-shadow: 0 4px 6px 5px rgba(0,0,0,0.2);
+    padding: 2rem;
+    margin: 2rem;
+}
+.h5{
+    font-size: 30px;
+    margin-bottom: 3px;
+    color: Black;
+    margin-left: 7px;
+}
+.front{
+    box-shadow: 5px 5px 5px 5px;
+    color: grey;
+    margin-left: 2px;
+    border-color: grey;
+    height: 550px;
+   width : 950px;
+   margin-bottom: 40px;
+}
+.back{
+    box-shadow: 5px 5px 5px 5px;
+    color: grey;
+    margin-left: 2px;
+    border-color: grey;
+    height: 330px;
+   width : 950px;
+   margin-bottom: 40px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="full.css">
+</head>
+<body class="body">
+    <div class="all">
+   <h1 class="h1">Full-Stack Development</h1>
+   <div class="full">
+   <h2 class="h2">About</h2>
+   <P class="p">Full Stack development refers to the practice of developing both the frontend(client-side) and backend(server-end) in the web pages or web applications. A fullstack developer is skilled in multiple layers of software development, which include everything from desiging & buliding the user interface(UI) and user-experince(UX) on the frontend, to handling databases, serverlogic, and APIs on the backend. The frontend typically involves technologies like HTML, CSS, Javascript and Frameworks such as React or Angular, while the backend involves working with server-side languages such as python, java or Node.Js and managing databases using tools like MySQL, MongoDB, or PostgreSQL. Fullstack developer are versatile, capable of working on all aspects of an application, and often bridge the gap between the frontend and backend teams, ensuring seamless integration of the various components.</P>
+   </div>
+   <div class="full">
+   <h2 class="h2">Types of Full Stack development</h2>
+   <Ol>
+    <li class="list">Frontend development:</li>
+    <p class="p">The skillset involves the actual presentation of your website how the information  in your website is laid out in browser & on mobile device as well. A dedicated frontend developer will be very experience working with Html and css as well as the scripting languages javascript. With the help of these languages developers can very efficiently manipulate the information on wesite to make it effective. The main goal or aspect of a frontend developer is to provide the platform for users to interact with a platform that provides and receives information. This means some of the developers will be well-skilled in web design and using software such as photoshop and graphic design to create graphics & theme layouts.
+        Additionally skillsets of a frontend developer could include User expereince design and User interface design, skills which help a team to evaluate the best method of displaying & collecting information. A frontend developement possesses these design skill is potentially more valuable as they can identify the look & feel of a site while assessing the technical capabilites of such a design at the same time.
+    </p>
+    <div class = "front">
+    <h5 class="h5">Front-end(Html/Css/JavaScript)</h5>
+    <div class="example">
+    <pre><code>
+        &lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Simple Frontend Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;button id="myButton"&gt;Click Me&lt;/button&gt;
+  &lt;div id="messageArea"&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    document.getElementById("myButton").addEventListener("click", function() {
+      fetch('/api/message') // Makes a request to the backend
+        .then(response => response.text())
+        .then(text => {
+          document.getElementById("messageArea").textContent = text; // Displays the message
+        })
+        .catch(error => console.error("Error:", error));
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+    </code></pre></div></div>
+    <li class="list">Backend development</li>
+    <p class="p">Create, Update and recollection of data are some of the processes that are most often associated with back-end development. Some example of common scripting language used for backend development are javascript, php, python and MySQL. With the help of these language, a backend developer can create algorithms and bussiness logic to mainpulate the data that was received in frontend development.This means that a backend developer must be able to writecode to receive the information input form the user & also save it somewhere like in a database. Relational and Non-relational are the two types of database.Essentially, they build the foundation that supports the User-facing aspects of an application, ensuring performance, scalability and security.</p>
+    <div class="back">
+    <h5 class="h5">Back-end(Python with Flask)</h5>
+    <div class="example">
+    <pre><code>
+    from flask import Flask, jsonify
+
+app = Flask(__name__)
+
+@app.route('/api/message')
+def get_message():
+  return "Hello from the backend!"
+
+if __name__ == '__main__':
+  app.run(debug=True)
+   </code></pre></div></div>
+</0l>
+</div>
+</div>
+</body>
+</html>

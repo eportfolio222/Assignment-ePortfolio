@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="java.css">
+</head>
+<body class="body">
+  <div class="all">
+    <h1 class="h1">JavaScript</h1>
+    <div class="box">
+        <h2 class="h2">About</h2>
+        <p class="p1">Javascript is a programming language used to make web pages interactive. It allows you to control elements on a page, respond to user actions(like clicks and typing), and dynamically change content, styles, or behaviour without reloading the page.</p>
+        <h2 class="h2">Key features of JavaScript</h2>
+        <ul>
+            <li class="list">
+                Run directly in the browser to make page interactive.
+            </li>
+            <li class="list">
+                Handling Event by responding to the users action like clicks, hovers, or keypresses.
+            </li>
+            <li class="list">
+                Javascript can change Html content and Css styles dynamically.
+            </li>
+            <li class="list">
+                Form validation checks of Users input before submitting data to a server.
+            </li>
+            <li class="list">
+                Supports logic like loops, conditions and functions.
+            </li>
+            <li class="list">
+                Works in all modern web browsers.
+            </li>
+        </ul>
+        <div class="demo">
+        <h5 class="h5">Example</h5>
+        <div class="example">
+            <pre><code>
+                &lt;script&gt;
+                    function subbmit(){
+                        let a = document.getElementById("Name").value;
+                        let b = document.getElementById("Password").value;
+                        let message = document.getElementById("message");
+                        if( a === "shitalkarki" && b === "1234567890"){
+                            message.innerText = "Congratulations you've entered sucessfully🎉"
+                        }
+                        else{
+                            message.innerText = "Incorrect inputs⚠️"
+                        }
+                    }
+                &lt;/script&gt;
+            </code></pre></div>
+        </div>
+        <h2 class="h2">Explanation of what it demeonstrates</h2>
+     <ol>
+        <li class="list">
+            Script grabs User input from Name and password.
+        </li>
+        <li class="list">
+            It checks wheather the values entered by the User match hardcoded values:
+            <ul>
+                <li class="list">
+                    Username: "shitalkarki"
+                </li>
+                <li class="list">
+                    Password: "1234567890"
+                </li>
+            </ul>
+        </li>
+        <li class="list">
+            Based on the validation result, it displays a message by updating the content of an element with the ID message:
+            <ul>
+                <li class="list">
+                    If correct, it will display "Congratulations you've entered succesfully🎉"
+                </li>
+                <li class="list">
+                    If incorrect, it will display "Incorrect inputs⚠️"
+                </li>
+            </ul>
+        </li>
+     </ol>
+    </div>
+  </div>
+</body>
+</html>

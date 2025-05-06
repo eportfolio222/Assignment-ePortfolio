@@ -1,0 +1,60 @@
+.body{
+    background-color:whitesmoke;
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.header{
+    text-align: left;
+    color: snow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color:#1C1F33;
+    border-bottom: 1px;
+    
+}
+.nav{
+  overflow: hidden;
+  display: flex;
+}
+.nav a{
+    color: snow;
+    text-decoration: none;
+    margin-left: 12px;
+}
+.nav a:hover{
+  color: rgb(81, 65, 225);
+  text-decoration: underline;
+
+}
+.nav a.active{
+    background-color: aqua;
+    color: white;
+}
+.profile{
+  text-align: center;
+margin-top: 30px;
+}
+.h{
+  font-size: 50px;
+}
+.p{
+  font-size: 20px;
+}
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card-title {
+  color: #2d3748;
+  font-weight: 600;
+}
+.card-text {
+  color: #718096;
+}
